@@ -60,6 +60,10 @@ a:active,
 .bg-color h2 small {
 	color: #fff;	
 }
+ul {
+	list-style: none;
+	padding: 0;
+}
 
 /* NAVBAR */
 menu {
@@ -110,7 +114,7 @@ header#hero h1 {
 }
 header#hero .box {
 	position: absolute;
-	width: 22.5%;
+	width: 30%;
 	top: 35vh;
 	bottom: 35vh;
 }
@@ -121,7 +125,7 @@ header#hero .box {
 	padding: 15vh 0;
 }
 #foundation .box {
-	padding-top: 15vh;
+	padding-top: 10vh;
 }
 
 /* KOALAS */
@@ -176,4 +180,23 @@ header#hero .box {
 }
 #donation-options .jumbotron p {
 	font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+    color: #fff;
+    background-color: #41521F;
+    padding: 5em 0 2em;
+}
+footer h4 {
+	color: #A89F68;
+	font-weight: 700;
+}
+footer .signature {
+	padding: 3em 0 0;
+}
+footer a:hover,
+footer a:focus,
+footer a:active {
+	color: #fff;
 }
