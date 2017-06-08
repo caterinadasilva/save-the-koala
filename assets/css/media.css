@@ -1,0 +1,18 @@
+@media screen and (max-width: 767px) {
+	header#hero .box {
+		position: absolute;
+		width: 90%;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+	#foundation {
+		padding: 3em 0;
+	}
+	#foundation .box {
+		padding-top: 0;
+	}
+	#donation-options .jumbotron h1 {
+		width: 55%;
+	}
+}
