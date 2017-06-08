@@ -1,0 +1,37 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+/* NAVBAR */
+* {
+	font-family: 'El Messiri', Helvetica, Arial, sans-serif;
+}
+
+menu {
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand > * {
+    margin: 0;
+    padding: 0;
+    font-size: 140%;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0,.7);
+}
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 150%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0,.7);
+}
+header#hero {
+	min-height: 100vh;
+	background-image: url(../img/portada.jpg);
+	background-size: cover;
+    background-position: center;
+	padding: 0;
+	margin: 0;
+}
